@@ -1,0 +1,29 @@
+### Buscar pessoa
+GET http://localhost:3000/get
+
+### Buscar pessoa por id
+GET http://localhost:3000/BuscarPorId/3
+ 
+### Cadastrar pessoa
+POST http://localhost:3000/newPessoa
+Content-Type: application/json
+
+{
+    "nome": "Ana Vargas",
+    "idade": 42,
+    "cep": "80710150"
+}
+
+### Atualizar pessoa
+PUT http://localhost:3000/atualizarPessoa
+Content-Type: application/json
+
+{
+    "idPessoa": 2,
+    "nome": "Samuel Teste",
+    "idade": 19,
+    "cep": "80710150"
+}
+
+### Deletar por Id
+DELETE  http://localhost:3000/deletarPessoa/2
