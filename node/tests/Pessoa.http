@@ -9,9 +9,9 @@ POST http://localhost:3000/newPessoa
 Content-Type: application/json
 
 {
-    "nome": "Bruno Santos",
+    "nome": "Ana Santos",
     "idade": 30,
-    "cep": "80710150"
+    "cep": "81200520"
 }
 
 ### Atualizar pessoa

@@ -23,14 +23,6 @@ class PedidoService
 
     public function cadastrarPedido($dados)
     {
-        $solicitante = $this->pessoaService->obterPessoa($dados['solicitante_id']);
-        $dados['solicitante_id'] = $solicitante;
-        unset($dados['solicitante_id']);
-
-        $responsavel = $this->pessoaService->obterPessoa($dados['responsavel_id']);
-        $dados['responsavel_id'] = $responsavel;
-        unset($dados['responsavel_id']);
-
         return $this->pedidoRepository->criar($dados);
     }
 
