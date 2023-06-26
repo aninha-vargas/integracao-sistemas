@@ -1,4 +1,4 @@
-### Buscar pessoa
+### Listar
 GET http://localhost:3000/get
 
 ### Buscar pessoa por id
@@ -9,8 +9,8 @@ POST http://localhost:3000/newPessoa
 Content-Type: application/json
 
 {
-    "nome": "Ana Vargas",
-    "idade": 42,
+    "nome": "Bruno Santos",
+    "idade": 30,
     "cep": "80710150"
 }
 

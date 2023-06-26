@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0hD5/fxpT894OdBdPdvJnBjjYZamubS+Me3avnjuxXCXI17FA2wq48Cm2qdztAZhQlBDNUQP+eJ5LQ/5NYDlgg==",
+  "dgSpecHash": "vd4WbtwBy4uEjOHkXAdkE+L2jMSIfkiBIqtf14pyycfsLlPVUUsBPBs1F1sHrx7Fp/gKeoPV9v4Ki0J9STCbmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aninh\\Desktop\\Projetos Integ Software\\Trabalho2B\\dot\\dotnet\\dotnet.csproj",
+  "projectFilePath": "C:\\Users\\aninh\\Desktop\\Projetos Integ Software\\Trabalho2B\\dotnet\\dotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aninh\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\aninh\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
